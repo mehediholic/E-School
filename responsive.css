@@ -1,0 +1,84 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .footer-widgets {
+        margin-bottom: 35px;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .section-padding {
+        padding: 40px 0px;
+    }
+    .f-right {
+        float: none;
+    }
+    .signinbutton {
+        padding: 8px 15px;
+        width: 40%;
+        text-align: center;
+    }
+    .slide-image {
+        margin-top: 150px;
+    }
+    .students {
+        margin: 0;
+        float: none;
+    }
+    .footer-widgets {
+        margin-bottom: 35px;
+    }
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .slider-text p {
+        margin-bottom: 0px;
+    }
+    .f-right {
+        float: none;
+    }
+    .signinbutton {
+        padding: 8px 15px;
+        width: 40%;
+        text-align: center;
+    }
+    .slider-text p {
+        margin-bottom: 30px;
+    }
+    .slide-image {
+        margin-top: 50px;
+    }
+    .promo {
+        margin-bottom: 30px;
+    }
+    .course {
+        margin-bottom: 30px;
+    }
+    .testimonial-width {
+        width: auto;
+    }
+    .testimonial-text p {
+        text-align: center;
+    }
+    .footer-widgets {
+        margin-bottom: 35px;
+    }
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}

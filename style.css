@@ -1,0 +1,357 @@
+/*
+  Theme Name: E-School
+  Author: Mehedi Hasan
+  Author URI: https://www.hasanmehedi.me
+  Support: mehedicse11@gmail.com
+  Description: Creative HTML5 Template for School.
+  Version: 1.0
+*/
+
+/* CSS Index
+-----------------------------------
+01. Theme default css
+02. Header Area
+03. Slider Area
+04. Promo Area
+05. Course Area
+06. Blog Area
+07. Testimonial Area
+08. Footer Area
+*/
+
+
+
+/* 1. Theme default css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+ body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+.img {
+	max-width: 100%;
+	transition: all 0.3s ease-out 0s;
+}
+.f-left {
+	float: left
+}
+.f-right {
+	float: right
+}
+.fix {
+	overflow: hidden
+}
+a,
+.button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+a:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none;
+}
+a:focus,
+a:hover,
+.footer -menu li a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+a,
+button {
+	color: #1696e7;
+	outline: medium none;
+}
+button:focus,input:focus,input:focus,textarea,textarea:focus{outline: 0}
+.uppercase {
+	text-transform: uppercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	color: #585859;
+	margin-top: 0px;
+	font-style: normal;
+	font-weight: 400;
+	text-transform: normal;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: inherit;
+}
+h1 {
+	font-size: 40px;
+	font-weight: 500;
+}
+h2 {
+	font-size: 35px;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 22px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none
+}
+p {
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 24px;
+	color: #7e7e7e;
+	margin-bottom: 15px;
+}
+hr {
+	border-bottom: 1px solid #eceff8;
+	border-top: 0 none;
+	margin: 30px 0;
+	padding: 0;
+}
+.section-padding{
+	padding: 60px 0px;
+}
+.btn-button {
+	display: inline-block;
+	background: #21B573;
+	padding: 8px 30px;
+	border-radius: 100px;
+	color: #fff;
+	border: 1px solid #21B573;
+}
+
+.btn-button:hover{
+	background: #fff;
+	color: #111;
+	border: 1px solid #21B573;
+}
+
+
+/* Header Area Style */
+.header-area {
+	margin: 0px auto;
+	background-color: #F0FFF0;
+	padding-top: 20px;
+	padding-bottom: 118px;
+}
+.mainmenu .navbar .navbar-nav .nav-item {
+	color: #111;
+	margin-right: 15px;
+}
+.mainmenu .navbar .navbar-nav .nav-item:hover {
+	color: #777;
+	margin-right: 15px;
+}
+.signinbutton{
+	padding: 8px 28px;
+	background: #21B573;
+	color: #fff;
+	font-size: 15px;
+	border-radius: 100px;
+	display: inline-block;
+	border: 1px solid #21B573;
+}
+.signinbutton:hover{
+	background: #fff;
+	color: #111;
+	border: 1px solid #21B573;
+}
+.heading{
+	margin-bottom: 40px;
+	font-weight: 700;
+	color: #413960;
+}
+
+/* Slider Style */
+.slider {
+	padding-top: 100px;
+}
+.slider-text h1 {
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+.slider-text span {
+	color: #21B573;
+}
+.slider-text p {
+	margin-bottom: 30px;
+}
+
+
+/* Promotion Area Style */
+.promotion-area {
+	text-align: center;
+}
+.promo {
+	background: #f0faf4;
+	padding: 30px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	transition: .3s;
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	-ms-transition: .3s;
+	-o-transition: .3s;
+}
+.promo:hover {
+	background: #fff;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.promo img{
+	width: 66px;
+	height: 85px;
+}
+.promo h3 {
+	margin: 20px 0px 10px 0px;
+	font-size: 20px;
+	font-weight: 500;
+}
+.promo p{
+	margin: 0px;
+}
+
+/* Our Course Area Style */
+.course {
+	background: #fff;
+	padding: 20px;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+.course-details h4 {
+	font-size: 22px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-weight: 500;
+	color: #413960;
+}
+.course-details p {
+	margin: 15px 0px;
+	font-size: 16px;
+	font-weight: 200;
+}
+.course-footer {
+	padding: 30px 0px;
+}
+.date {
+	margin: 0;
+	float: left;
+}
+.date .fa-calendar-alt{
+	margin-right: 5px;
+}
+.students {
+	margin: 0;
+	float: right;
+}
+.students .fa-users {
+	margin-right: 5px;
+}
+
+/* Blog Area Style */
+.blog-area{
+	background: #F0FFF0;
+}
+.btn-blog {
+	font-weight: 500;
+	font-size: 15px;
+	border: 1px solid #21B573;
+	padding: 5px 15px;
+	border-radius: 100px;
+	background: #21B573;
+	color: #fff;
+}
+.btn-blog:hover {
+	background: #fff;
+	color: #282531;
+}
+.card-text {
+	margin-bottom: 30px;
+}
+.card-title {
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 15px;
+	color: #21B573;
+}
+.card-title:hover{
+	color: #199e62;
+}
+/* Testimonial Area Style */
+.testimonial-width{
+	width: 900px;
+}
+.testimonial-image img {
+	width: 120px;
+	height: 120px;
+}
+.testimonial-image {
+	text-align: center;
+}
+.testimonial-text {
+	margin-top: 20px;
+}
+.testimonial-text p {
+	font-weight: 300;
+	color: #222;
+}
+
+/* Footer Area Style */
+.footer-area{
+	background: #282531;
+}
+.footer-widgets p {
+  color: #fff;
+}
+.footer-widgets ul li a {
+  color: #fff;
+  font-weight: 200;
+  font-size: 15px;
+}
+.footer-widgets h4 {
+  color: #fff;
+}
+
+/* Footer Bottom Area Style */
+.footer-bottom-area {
+    background: #282531;
+    padding: 15px 0px;
+}
+
+.footer-bottom-area p {
+    margin: 0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 200;
+}
